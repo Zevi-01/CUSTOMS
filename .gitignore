@@ -1,0 +1,28 @@
+# Python / IDE
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.idea/
+.vscode/
+
+# 运行时临时产物（别上传）
+temp_*/
+~tmp_*_*.xlsx
+~$*.xlsx
+
+# 大屏输出（按需上传）
+*_数据大屏.xlsx
+*_数据大屏.html
+*.html.zip
+
+# 原始月报（公司数据，绝对别上传！）
+*关务月报*.xlsx
+*进出口金额*.xlsx
+*.xls
+*.xlsm
+
+.DS_Store
+Thumbs.db
